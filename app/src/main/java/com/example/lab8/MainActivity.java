@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         checkButton.setOnClickListener(v -> {
             String password = passwordInput.getText().toString();
             if (PasswordValidator.isValidPassword(password)) {
-                resultText.setText("Password is valid.");
+                resultText.setText("Password is validdddddddd.");
             } else {
                 resultText.setText("Password is invalid.");
             }
